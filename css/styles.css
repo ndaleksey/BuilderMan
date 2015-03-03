@@ -1,0 +1,198 @@
+@import "http://webfonts.ru/import/ubuntu.css";
+
+/*
+	Ubuntu, 300, 300 italic, 400, 400 italic, 500, 500 italic, 700, 700 italic
+*/
+html, body {
+    background: url(../images/brickwall.png);
+}
+
+body {
+    outline: 1px solid red;
+}
+
+div {
+    font-family: "Ubuntu"
+}
+
+.row.stripe_dark {
+    background: #191919;
+}
+
+.stripe_dark p {
+    color: #BA1A50;
+    float: right;
+}
+
+/*=============================== STRIPE 1 ================================*/
+#stripe1 {
+    background: #f76513;
+}
+
+#logo_img {
+    background: url("../images/logo.png") no-repeat;
+    height: 90px;
+    width: 300px;
+    background-size: cover;
+}
+
+#menu {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+li.menu_item {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.link_box {
+    border-right: 1px solid #191919;
+}
+
+li a.menu_link {
+    color: #f0f0f0;
+    padding: 10px 20px;
+    display: block;
+    line-height: 70px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: larger;
+}
+
+li a.menu_link:hover {
+    text-decoration: none;
+    background: #333333;
+}
+
+li a.menu_link:visited {
+    text-decoration: none;
+}
+
+/*span {
+    display: inline-block;
+    color: #efefef;
+    vertical-align: middle;
+}*/
+
+/*span:hover {
+    background: #333333;
+    text-align: center;
+}*/
+
+/*=============================== STRIPE 2 ================================*/
+#stripe2 {
+    background: url("../images/bg_pic1.png") no-repeat;
+    background-position-y: 50%;
+    background-size: cover;
+    height: 400px;
+}
+
+.list_work_title {
+    display: inline-block;
+    color: #333333;
+}
+
+.list_work_title:hover {
+    color: #f66414;
+    cursor: default;
+}
+
+ul.work_type li {
+    list-style: none;
+    vertical-align: middle;
+    font-size: x-large;
+}
+
+.list_marker_img {
+    /*padding-right: 10px;*/
+}
+
+.builder_man_img {
+    width: 200px;
+    background: url("../images/dark_brickwall.png");
+}
+
+/*=============================== STRIPE 3 ================================*/
+#stripe3 {
+    background: url("../images/brickwall.png");
+}
+
+.main_text {
+    padding: 25px 0px;
+}
+
+/*=============================== STRIPE 4 ================================*/
+#stripe4 {
+    background: url("../images/bg_pic2.png") no-repeat;
+    background-position-y: 50%;
+    background-size: cover;
+}
+
+.gallery_image {
+    background: rgb(237, 236, 236) center no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    display: inline-block;
+    box-shadow: 0 0 18px rgb(82, 82, 82);
+    margin: 20px 10px
+}
+
+/*==========================================================================*/
+.image_box {
+    text-align: center;
+}
+
+.answer_box, .question_box {
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    /*width: 200px;*/
+    margin-top: 10px;
+}
+
+.question_box {
+    background: coral;
+    box-shadow: 0px 0px 10px #f07040;
+}
+
+.answer_box {
+    background: coral;
+    box-shadow: 0px 0px 10px #f07040;
+    right: -10px;
+}
+
+.admin_avatar, .user_avatar {
+    width: 80px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.admin_avatar {
+    background: url("../images/admin.png") no-repeat;
+}
+
+.user_avatar {
+    background: url("../images/user.png") no-repeat;
+}
+
+.author_name {
+    color: red;
+    width: 80px;
+    text-align: center;
+    /*display: inline;*/
+}
+
+.send_button {
+    background-color: #d8f6e7;
+    border-style: groove;
+}
+
+.order_request_form {
+    margin: 40px 0px;
+}

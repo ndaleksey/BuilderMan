@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Тест с лайком</title>
+</head>
+<body>
+<style>
+    .toolbox {
+        position: relative;
+        background: mediumslateblue;
+        width: 200px;
+        margin: 50px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px navy;
+        /*z-index: 1;*/
+    }
+
+    .toolbox:before {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: lime;
+        content: "";
+        top: -10px;
+        transform: rotate(45deg);
+        z-index: -1;
+    }
+</style>
+<div class="toolbox">Hello From CSS</div>
+</body>
+</html>
