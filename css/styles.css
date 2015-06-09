@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
 }
 
 div {
@@ -17,10 +17,11 @@ div {
 
 .row.stripe_dark {
     background: #191919;
+    font-size: 14pt;
 }
 
 .stripe_dark p {
-    color: #BA1A50;
+    color: #fff;
     float: right;
 }
 
